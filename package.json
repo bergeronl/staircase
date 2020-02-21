@@ -1,0 +1,38 @@
+{
+  "name": "@bergeronl/staircase",
+  "version": "0.1.0",
+  "description": "Simple utility to calculate stair dimensions.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./public/js/*.js ./cypress/**/*.js ./index.js",
+    "lint:fix": "eslint ./public/js/*.js ./cypress/**/*.js ./index.js --fix",
+    "start": "node index.js",
+    "cypress": "cypress open",
+    "dev": "npm run start & npm run cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergeronl/staircase.git"
+  },
+  "keywords": [
+    "stair",
+    "calculator",
+    "carpentry"
+  ],
+  "author": "Luc Bergeron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergeronl/staircase/issues"
+  },
+  "homepage": "https://github.com/bergeronl/staircase#readme",
+  "devDependencies": {
+    "cypress": "^4.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+
+BODY {
+    font-family: 'Lato';
+    background-color: lightgray;
+}
+
+.main-column {
+    margin: 1em 25% 3em 25%;
+    background-color: white;
+    padding: 1em 1em 1em 1em;
+}
+
+.footer {
+    border-top: solid 0.01em lightgray;
+    padding-top: 0.5em;
+    font-size: small;
+    text-align: right;
+}
+
+.section {
+    margin: 0 3em 3em 3em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.form {
+    border: solid 0.01em gray;
+    padding: 1em;
+    margin: 0 2em 0 2em;
+}
+
+.form-line {
+    padding: 0.5em;
+}
+
+.form-field {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+INPUT.form-value {
+    width: 30%;
+    text-align: right;
+}
+
+SPAN.form-value {
+    display: inline;
+}
+
+.buttons {
+    text-align: right;
+}
+
